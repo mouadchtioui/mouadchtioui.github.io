@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-
+@media (max-width: 480px) {
+    body {
+        zoom: 70%;
+    }
+  }
 
 body{
     background-color: #f2dad6;
