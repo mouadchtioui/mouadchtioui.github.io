@@ -10,6 +10,22 @@
         zoom: 50%;
         }
 }
+
+@media all and (max-width: 650px) {
+    #navigation {
+        clear: left;
+        float: left;
+        height: auto;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 0;
+        width: 50%;
+    }
+    #navigation li {
+     width: 100%;
+    }
+}
+
 body{
     background-color: #f2dad6;
     font-family: 'Ubuntu', sans-serif;
@@ -191,10 +207,10 @@ body{
    
     /* height: 330px;
     width: 350px; */
-    bottom: -50px;
+    bottom: -10px;
     position:absolute;
     background-color: #f2dad6;
-    height: 380px;
+    height: 340px;
     width: 30px;
     
 }
@@ -203,10 +219,10 @@ body{
    
     /* height: 400px;
     width: 350px; */
-    bottom: -480px;
+    bottom: -450px;
     position:absolute;
     background-color: #f2dad6;
-    height: 380px;
+    height: 350px;
     width: 30px;
     
 }
@@ -234,9 +250,9 @@ body{
 .rating{
     width: 250px;
     position: relative;
-    font-size: 25px;
+    font-size: 24px;
     left: 180px;
-    bottom: 8px;
+    bottom: 5px;
     letter-spacing: 5px;
 
 }
