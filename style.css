@@ -1,35 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-@media screen and (min-width: 500px) {
-    body{
-        zoom: 80%;
-        }
-}
 
-@media screen and (min-width: 800px) {
-    body{
-        zoom: 50%;
-        }
-}
-
-@media all and (max-width: 650px) {
-    #navigation {
-        clear: left;
-        float: left;
-        height: auto;
-        margin-left: 25%;
-        margin-right: 25%;
-        margin-top: 0;
-        width: 50%;
-    }
-    #navigation li {
-     width: 100%;
-    }
-}
 
 body{
     background-color: #f2dad6;
     font-family: 'Ubuntu', sans-serif;
-    zoom: 50%;
+    zoom: 60%;
     
 }
 
