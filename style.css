@@ -51,7 +51,7 @@ body{
 
 .aboutsec{
     height: 320px;
-    width: 380px;
+    width: 400px;
     left: 47px;
     text-align: center;  
     position: relative;
@@ -72,43 +72,41 @@ body{
 
 .aboutp {
     top: -19px;
-    font-size: 20px ;
-    font-weight: 300;
+    font-size: 19px ;
+    font-weight: 700;
    text-align: center;
     position: relative;  
-    word-break: break-all;
-
 }
 
 
 .contact-sec{
-    height: 365px;
-    width: 280px;
-    left: 30px;  
+    height: 360px;
+    width: 350px;  
     position: relative;
     position:absolute;
-    left: 750px;
+    left: 710px;
     text-align: center;
+
 
 }
 .contact-txt{
-    font-size: 37px;
-    font-weight: 1000;
+    font-size: 40px;
+    /* font-weight: 1000; */
     word-break: break-all;
     text-align: center;
     position: relative;
     letter-spacing: 2px;
-
-
+    
 }
 .contact-lorem{
     top: -19px;
     font-size: 25px ;
     font-weight: 300;
    text-align: center;
-    position: relative;  
+    position: relative;
+    padding-bottom: 22px;  
     
-    word-break: break-all; 
+    /* word-break: break-all;  */
 
 }
 .social{
