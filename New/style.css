@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Covered+By+Your+Grace&display=swap');
+
+body{
+    background-color: #072227;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+     */
+}
+
+img{
+    margin-left: auto;
+    height: 170px;
+    display: block;
+    /* margin-right: auto; */
+    border-radius: 80px ;
+    
+
+    
+}
+
+.title{
+    font-family: 'Anton', sans-serif;
+    /* font-family: 'Covered By Your Grace', cursive; */
+    font-size: 52px;
+    font-weight: 900;
+    width: 180px;
+    letter-spacing: 3px;
+    color: #AEFEFF;
+    top: 22px;
+    position: absolute;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+    /* font-family: 'Covered By Your Grace', cursive; */
+    background-color: #86E1C8;
+    letter-spacing: 8px;
+}
+
+p{
+    border:3px; 
+    border-style:solid; 
+    border-color:#4FBDBA; 
+    color: #072227;
+    padding: 1.5em;
+    border-radius: 20px;
+    font-size: 22px;
+}
+
