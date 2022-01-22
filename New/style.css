@@ -54,7 +54,7 @@ p{
     margin-left: auto;
     height: 150px;
     /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212); */
-    box-shadow: -3px 2px 0px #4fbdb9;
+    box-shadow: 0px 0px 3px #4fbdb9;
     background-color: white;
     display: flex;
     border-radius: 80px;
@@ -88,3 +88,55 @@ p{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
 }
+
+/* glass */
+h1{
+
+    width: 290px; 
+    height: 35px; 
+    display: flex; 
+    align-items: center; 
+    margin: 1.3em; 
+    cursor: pointer; 
+    background:#87e1c8; 
+    position: relative;
+    padding: 20px;
+    color: #062226;
+    border-radius: 2px;
+    left: -37px; 
+}
+h1::before,
+h1::after {
+
+content: ''; 
+position: absolute; 
+z-index: -11; 
+border-radius: 5px; 
+width: 100%; 
+transition: all .4s;
+
+}
+
+
+
+h1::after{
+
+    left: -5%; 
+    height: 100%;
+    background: #ffffff56; 
+    backdrop-filter: blur(10px); 
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.164);
+}
+
+h1:hover::before{
+
+    transform: translateX(2.5%);
+}
+
+
+h1:hover::after{
+
+    transform: translateX(15%);
+
+}
+
