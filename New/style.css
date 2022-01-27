@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
 
 body{
     /* background-color: #072227; */
@@ -39,15 +40,39 @@ h1{
     background-color: #87e1c8;
     letter-spacing: 1px;
 }
+h2{
+    font-family: 'Anton', sans-serif;
+    color: #87e1c8;
+    border: #4FBDBA;
+    /* background-color: #87e1c8; */
+    letter-spacing: 1px;
+    left: 20px;
+    position: relative;
+    width: 520px;
+    height: 45px;
+
+}
 
 p{
-    border:3px; 
-    border-style:solid; 
-    border-color:#4FBDBA; 
-    color: #072227;
+    /* border:3px;  */
+    /* border-style:solid;  */
+    color: #4FBDBA;
     padding: 1.5em;
     border-radius: 20px;
     font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+ 
+    display: flex; 
+    align-items: center; 
+    margin: 1.3em; 
+    cursor: pointer; 
+
+    position: relative;
+    padding: 20px;
+    color: #87e1c8; ;
+    border-radius: 2px;
+    left: -7px; 
+    
 }
 .card{
     width: 150px;
@@ -66,13 +91,14 @@ p{
     width: 150px;
     height: 150px;
     border-radius: 80px;
-  
     cursor: pointer;
     z-index: 10;
     transition: all .4s; 
 }
 .card:hover img{
-    margin-top: -30px;
+    
+    height: 344px;
+    width: 8118px;
 }
 .card:hover {
     width: 160px;
