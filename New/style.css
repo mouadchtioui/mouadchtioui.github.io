@@ -1,168 +1,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Covered+By+Your+Grace&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap&family=Nunito&display=swap');
 
 body{
-    /* background-color: #072227; */
-    background-color: #062226;
-    /* background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-     */
+    background-color: #081410 ;
 }
-
-/* img{
-    margin-left: auto;
-    height: 170px;
-    display: block;
-    border-radius: 80px ;
-    
-
-    
-} */
-
+/* title */
 .title{
     font-family: 'Anton', sans-serif;
-    /* font-family: 'Covered By Your Grace', cursive; */
     font-size: 52px;
     font-weight: 900;
     width: 180px;
     letter-spacing: 3px;
-    /* color: #AEFEFF; */
-    color: #adfdfe;
+    color: #87e1c8;
+    text-shadow: 1px 1px 0px #000000;
     top: 22px;
     position: absolute;
 }
+/* image  */
+.image img{
+    width: 150px;
+    margin-left: auto;
+    height: 150px;
+    display: flex;
+    border-radius: 80px;
+    position: relative;
+    transition: all .42s;
 
-h1{
-    font-family: 'Anton', sans-serif;
-    /* font-family: 'Covered By Your Grace', cursive; */
-    /* background-color: #86E1C8; */
-    background-color: #87e1c8;
-    letter-spacing: 1px;
 }
+.image img:hover{
+    width: 180px;
+    height: 100%;
+    border-radius: 10px;
+    transition: all .2s;
+    position: relative;
+
+}
+
 h2{
     font-family: 'Anton', sans-serif;
     color: #87e1c8;
-    border: #4FBDBA;
-    /* background-color: #87e1c8; */
     letter-spacing: 1px;
     left: 20px;
     position: relative;
     width: 520px;
     height: 45px;
-
 }
-
 p{
-    /* border:3px;  */
-    /* border-style:solid;  */
-    color: #4FBDBA;
+    /* font-family: 'Josefin Sans'; */
+    font-family: 'Nunito', sans-serif;
     padding: 1.5em;
-    border-radius: 20px;
-    font-size: 22px;
-    font-family: 'Josefin Sans', sans-serif;
- 
+    font-size: 20px;
     display: flex; 
-    align-items: center; 
-    margin: 1.3em; 
-    cursor: pointer; 
+    margin: 1.3em;
+    left: -7px;
+    font-weight: 900;
+    color: #062226;
 
-    position: relative;
-    padding: 20px;
-    color: #87e1c8; ;
-    border-radius: 2px;
-    left: -7px; 
-    
 }
-.card{
-    width: 150px;
-    margin-left: auto;
-    height: 150px;
-    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212); */
-    box-shadow: 0px 0px 3px #4fbdb9;
-    background-color: white;
-    display: flex;
-    border-radius: 80px;
-    justify-content: center;
-    position: relative;
-    transition: all .4s;
+/* background glass  */
+.bg-gla{
+    height: 100%;
+    background: #9bc0d4; 
+    backdrop-filter: blur(10px); 
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.164);
+    color: #062226;
+    border-radius: 5px; 
+
+
+
+
 }
-.card img{
-    width: 150px;
-    height: 150px;
-    border-radius: 80px;
-    cursor: pointer;
-    z-index: 10;
-    transition: all .4s; 
+.bg-gla::after {
+
+    height: 100%;
+    background: #ffffff56; 
+    backdrop-filter: blur(10px); 
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.164); 
+    left: 1%;
+    top: 5%;
+
+
 }
-.card:hover img{
-    
-    height: 344px;
-    width: 8118px;
-}
-.card:hover {
-    width: 160px;
-}
-.card::before {
-    content: '@itsmemouad';
-    /* letter-spacing: 0.2em; */
-    position: absolute;
-    bottom: 12px;
-    left: 32px;
-    font-size: 14px;
-    color: rgb(51, 51, 51);
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
+.bg-gla::before,
+.bg-gla::after {
+content: ''; 
+position: absolute; 
+z-index: -11; 
+border-radius: 5px; 
+width: 100%; 
+
 }
 
-/* glass */
+
+
+/* background glass competance  */
+
+
+
+
+/* Bar */
 h1{
-
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    color: #062226;
+    background:#87e1c8; 
     width: 290px; 
     height: 35px; 
-    display: flex; 
     align-items: center; 
     margin: 1.3em; 
     cursor: pointer; 
-    background:#87e1c8; 
     position: relative;
     padding: 20px;
-    color: #062226;
+    display: flex; 
     border-radius: 2px;
     left: -37px; 
 }
 h1::before,
 h1::after {
-
 content: ''; 
 position: absolute; 
 z-index: -11; 
 border-radius: 5px; 
 width: 100%; 
 transition: all .4s;
-
 }
-
-
-
 h1::after{
-
-    left: -5%; 
+    left: -5%;
     height: 100%;
-    background: #ffffff56; 
+    background: #ffffff80; 
     backdrop-filter: blur(10px); 
     box-shadow:0 0 20px rgba(0, 0, 0, 0.164);
 }
-
 h1:hover::before{
-
     transform: translateX(2.5%);
 }
-
-
 h1:hover::after{
-
     transform: translateX(15%);
-
 }
 
