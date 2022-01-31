@@ -35,16 +35,44 @@ body{
     position: relative;
 
 }
+/* h2  */
+
 
 h2{
+    height: 100%;
+    background: #9bc0d4; 
+    backdrop-filter: blur(10px); 
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.164);
+    color: #062226;
+    border-radius: 2px; 
     font-family: 'Anton', sans-serif;
-    color: #87e1c8;
     letter-spacing: 1px;
     left: 20px;
     position: relative;
-    width: 520px;
-    height: 45px;
+    line-break: loose;
+
+
 }
+h2::after {
+
+    height: 100%;
+    background: #ffffff56; 
+    backdrop-filter: blur(10px); 
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.164); 
+    left: 0.25%;
+    top: 10%;
+
+
+}
+h2::before,
+h2::after {
+content: ''; 
+position: absolute; 
+z-index: -11; 
+border-radius:2px; 
+width: 100%; 
+}
+/* h2  */
 p{
     /* font-family: 'Josefin Sans'; */
     font-family: 'Nunito', sans-serif;
@@ -57,7 +85,7 @@ p{
     color: #062226;
 
 }
-/* background glass  */
+
 .bg-gla{
     height: 100%;
     background: #9bc0d4; 
@@ -66,18 +94,15 @@ p{
     color: #062226;
     border-radius: 5px; 
 
-
-
-
 }
 .bg-gla::after {
 
     height: 100%;
-    background: #ffffff56; 
+    background: #ffffff56;
     backdrop-filter: blur(10px); 
     box-shadow:0 0 20px rgba(0, 0, 0, 0.164); 
     left: 1%;
-    top: 5%;
+    top: 2%;
 
 
 }
@@ -91,9 +116,41 @@ width: 100%;
 
 }
 
+/* s  */
+.bg-gla-s{
+    height: 1005%;
+    background: #9bc0d4; 
+    backdrop-filter: blur(10px); 
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.164);
+    color: #062226;
+    border-radius: 5px; 
+    width: 40%;
+    padding: -50px;
 
 
-/* background glass competance  */
+}
+.bg-gla-s::after {
+
+    height: 50px;
+    background: #ffffff56; 
+    backdrop-filter: blur(10px); 
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.164); 
+    left: 1%;
+    top: 2%;
+
+
+}
+.bg-gla-s::before,
+.bg-gla-s::after {
+content: ''; 
+position: absolute; 
+z-index: -11; 
+border-radius: 5px; 
+width: 50%; 
+
+}
+
+
 
 
 
