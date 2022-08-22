@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^$ /v3.0 [L]
+RewriteRule ^$ /versions/v3.0 [L]
