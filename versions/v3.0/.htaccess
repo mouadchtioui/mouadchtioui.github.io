@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^(versions)/(v3.0)/.+$ /$1 [L,NC]
